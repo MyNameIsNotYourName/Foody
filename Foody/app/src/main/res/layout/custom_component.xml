@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgSanPham"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/food"/>
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_below="@id/imgSanPham"/>
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="15sp"
+        android:layout_below="@id/txtTitle"/>
+
+    <TextView
+        android:id="@+id/txtType"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Type"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/alizarin"
+        android:layout_above="@id/txtTitle"
+        android:layout_marginBottom="20dp"/>
+
+
+</RelativeLayout>

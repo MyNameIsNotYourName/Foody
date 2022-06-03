@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/top_nav_checkIn"
+        android:title="Check-in"
+        android:icon="@drawable/location"/>
+    <item android:id="@+id/top_nav_comment"
+        android:title="Bình luận"
+        android:icon="@drawable/chat"/>
+    <item android:id="@+id/top_nav_save"
+        android:title="Lưu"
+        android:icon="@drawable/bookmark"/>
+    <item android:id="@+id/top_nav_share"
+        android:title="Chía sẻ"
+        android:icon="@drawable/share"/>
+</menu>

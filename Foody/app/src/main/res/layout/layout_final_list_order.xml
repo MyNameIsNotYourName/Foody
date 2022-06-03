@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgSanPham"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/food" />
+
+    <TextView
+        android:id="@+id/txtTenSanPham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/imgSanPham"
+        android:text="Ten mon an"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtGiaSanPham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtBlank"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/imgSanPham"
+        android:text="10.000"
+        android:textColor="@color/alizarin"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VND"
+        android:textSize="20sp"
+        android:textColor="@color/alizarin"
+        android:layout_marginStart="3dp"
+        android:layout_below="@+id/txtBlank"
+        android:layout_toEndOf="@+id/txtGiaSanPham"
+        android:layout_marginTop="5dp"/>
+
+
+    <TextView
+        android:id="@+id/txtBlank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số Lượng: "
+        android:textSize="20sp"
+        android:textColor="@color/blue"
+        android:layout_marginStart="10dp"
+        android:layout_below="@+id/txtTenSanPham"
+        android:layout_toEndOf="@+id/imgSanPham"/>
+
+    <TextView
+        android:id="@+id/txtSoLuongSanPham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTenSanPham"
+        android:layout_toEndOf="@+id/txtBlank"
+        android:text="1"
+        android:textColor="@color/blue"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/imgSanPham"
+        android:background="@color/clouds"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"/>
+
+</RelativeLayout>

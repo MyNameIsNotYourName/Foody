@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgAccountComponent"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:src="@drawable/avatar"/>
+
+    <TextView
+        android:id="@+id/txtAccountComponent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imgAccountComponent"
+        android:text="Voucher"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/clouds"
+        android:layout_below="@+id/txtAccountComponent"
+        android:layout_toEndOf="@id/imgAccountComponent"/>
+
+    <TextView
+        android:id="@+id/txtNumOfOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"
+        android:text="1"
+        android:textColor="@color/alizarin"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
